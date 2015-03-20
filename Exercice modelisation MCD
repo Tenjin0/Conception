@@ -1,0 +1,26 @@
+Exercice modelisation MCD
+
+http://www.developpez.net/forums/d228392/general-developpement/alm/modelisation/schema/creation-mcd-cocktails-partir-d-enonce/#post1463643
+
+enoncé
+
+Création de cocktails :
+
+Les données :
+
+- Nom du cocktail (Daiquiri, Bloody Mary...)
+- Nom de l'ingrédient entrant dans la composition (Rhum, citron, sucre, etc..)
+- Numéro de la variante du cocktail (variante 1, variante 2, variante 3)
+- La quantité de l'ingrédient dans le cocktail d'une telle variante
+- L'untié de mesure de la quantité de l'ingrédient dans le cocktail (gramme, centilitre, cuillère,ect...)
+
+Les règles de gestion sont :
+
+RG1: le nom du cocktail est toujours sans ambiguïté possible pour le connaisseur.
+RG2: Dans une variante d'un cocktail, les quantités d'ingrédients peuvent changer, voir les ingrédients eux-mêmes.
+
+On doit pouvoir répondre facilement aux questions suivantes :
+
+- Dans un tel cocktail, quelles sont les variantes ?
+- Qu'y a-t'il dans chaque variante du cocktail ?
+- Dans quel cocktail utilise-t-on un ingrédient déterminé ?
